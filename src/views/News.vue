@@ -11,9 +11,44 @@
         <h3>{{$t('news.category')}}</h3>
       </b-col>  
     </b-row>
-    
+
+     <!-- third news -->
     <b-row align-h="center" style="height: auto;" class="mt-5">
-      <b-col cols lg="3" xl="3" style="margin-bottom: 20px;">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/vest31.jpg')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title3')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section3')}}</p>
+           <button @click="read3()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- second news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;" align-self="center">
+        <b-img :src="require('../assets/news.jpg')" fluid-grow alt="Fluid-grow image" class="a"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title2')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section2')}}</p>
+           <button @click="read2()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- first news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
         <b-img :src="require('../assets/img.jpg')" fluid-grow alt="Fluid-grow image"
         ></b-img>
       </b-col>
@@ -28,7 +63,7 @@
         </b-card>
       </b-col>
     </b-row>
-
+   
   </div>
 </template>
 
@@ -38,6 +73,16 @@ export default {
     read1() {
       this.$router.push({
         name: "OneNews"
+      });
+    },
+    read2() {
+      this.$router.push({
+        name: "OneNews2"
+      });
+    },
+    read3() {
+      this.$router.push({
+        name: "OneNews3"
       });
     }
   }
@@ -106,4 +151,7 @@ button:hover {
 .wrapper {
   margin-top: 71px;
 } 
+.w-100 .a{
+  width: 200px !important;
+}
 </style>
