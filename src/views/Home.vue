@@ -1,6 +1,9 @@
 <template>
   <div class="wrapper" fluid>
+    <!-- gornji pattern -->
+
     <b-row fluid class="mb-5 pattern" style="height: 275px"> </b-row>
+    <!-- gornji pattern -->
 
     <b-row
       cols-sm="1"
@@ -96,7 +99,7 @@
     <b-row align-h="center" class="mt-5">
       <b-col cols lg="5" class="mb-4">
         <b-img
-          :src="require('../assets/vest32.jpg')"
+          :src="require('../assets/vest31.jpg')"
           fluid-grow
           alt="Fluid-grow image"
         ></b-img>
@@ -104,12 +107,10 @@
 
       <b-col cols lg="4" class="news_text1">
         <b-card class="newsText">
-          <b-card-title class="newsTitle">{{
-            $t('news.title3')
-          }}</b-card-title>
+          <b-card-title class="newsTitle">{{ $t("news.title3") }}</b-card-title>
           <b-card-text>
             <p>
-              {{ $t('news.section3') }}
+              {{ $t("news.section3") }}
               <br />
               <router-link to="/news">{{ $t("home.read-more") }}</router-link>
             </p>
@@ -295,15 +296,18 @@ h2 {
 
 /*************PATTERN********************/
 .pattern {
-  background: url("../assets/patern275.png");
-  background-repeat: repeat;
+  background: url("../assets/jednaki_replacement_pattern_medium.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-bottom: 1.5px solid rgba(41, 170, 225, 0.5);
 }
 .patternDown {
   background: url("../assets/patern230.png");
   background-repeat: repeat;
 }
 
-.video{
+.video {
   margin-bottom: 100px !important;
 }
 </style>

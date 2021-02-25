@@ -15,7 +15,7 @@
      <!-- third news -->
     <b-row align-h="center" style="height: auto;" class="mt-5">
       <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
-        <b-img :src="require('../assets/vest32.jpg')" fluid-grow alt="Fluid-grow image"
+        <b-img :src="require('../assets/vest31.jpg')" fluid-grow alt="Fluid-grow image"
         ></b-img>
       </b-col>
 
