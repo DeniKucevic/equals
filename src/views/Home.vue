@@ -223,6 +223,7 @@ ol li {
 
 .card-body {
   padding: 0 !important;
+  text-align: justify;
 }
 .newsText p {
   color: #333333;

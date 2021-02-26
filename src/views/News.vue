@@ -119,13 +119,15 @@ html{
   color: #333333;
   margin-bottom: 5px;
   margin-top: 0;
+  text-align: justify;
 } 
 .col1 p {
   font-size: 14px;
   color: #333333;
   line-height: 1.7;
   margin-top: 10px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .col1{
   padding-left: 0 !important;

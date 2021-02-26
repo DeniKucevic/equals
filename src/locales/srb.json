@@ -1,7 +1,7 @@
 {
     "about": {
-        "title": "JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih",
-        "fisrt-section": "Kabinet ministra bez portfelja zaduženog za demografiju i populacionu politiku,u saradnji sa Fondacijom Ana i Vlade Divac počeo je sa realizacijom novog projekta „JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“. Projekat će se sprovoditi u periodu od januara 2020. do juna 2021. godine, uz finansijsku podršku Evropske unije, kroz program „Prava,jednakost i državljanstvo (2014-2020).“ ",
+        "title": "Projekat „JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“",
+        "fisrt-section": "je započet u januaru 2020 godine u saradnji Kabineta ministra bez portfelja zaduženog za demografiju i populacionu politiku i Fondacije Ana i Vlade Divac. Sa promenom Vlade Republike Srbije u oktobru 2020 godine, postavljeno je Ministarstvo za brigu o porodici i demografiju kao nosilac projekta. Projekat će se sprovoditi u periodu od januara 2020. do decembra 2021. godine, uz finansijsku podršku Evropske unije, kroz program „Prava, jednakost i državljanstvo (2014-2020).“",
         
         "title2": "OSNOVA PROJEKTA",
         "second-section": "Rodna ravnopravnost je važna dimenzija društvenog razvoja jer odražava nivo poštovanja ljudskih prava i ukazuje na korene diskriminacije. Rodna analiza za Srbiju pokazuje da uprkos napretku „rodne nejednakosti i dalje postoje“. Višestruka pojava nejednakosti polova uključuje domen rada, novca, vremena, znanja, zdravlja i moći, prema Indeksu rodne ravnopravnosti za Republiku Srbiju. Postoji neusklađenost u domenu plaćenog i neplaćenog rada kada je u pitanju briga o deci i ostalim članovima domaćinstva, kao i u odnosu posla i slobodnog vremena. Nedostatak podrške ženama za postizanje ravnoteže između radnog i porodičnog života veoma utiče na ostale oblasti rodne (ne)ravnopravnosti u Srbiji... Pročitaj više (link)",
@@ -33,7 +33,7 @@
     },
     "home": {
         "title-left": "O projektu",
-        "left-section": "Kabinet ministra bez portfelja zaduženog za demografiju i populacionu politiku, u saradnji sa Fondacijom Ana i Vlade Divac počeo je sa realizacijom novog projekta „JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“. Projekat će se sprovoditi u periodu od januara 2020. do juna 2021. godine, uz finansijsku podršku Evropske unije, kroz program „Prava, jednakost i državljanstvo (2014-2020).“",
+        "left-section": "Projekat „JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“ je započet u januaru 2020 godine u saradnji Kabineta ministra bez portfelja zaduženog za demografiju i populacionu politiku i Fondacije Ana i Vlade Divac. Sa promenom Vlade Republike Srbije u oktobru 2020 godine, postavljeno je Ministarstvo za brigu o porodici i demografiju kao nosilac projekta. Projekat će se sprovoditi u periodu od januara 2020. do decembra 2021. godine, uz finansijsku podršku Evropske unije, kroz program „Prava, jednakost i državljanstvo (2014-2020).“",
         "title-right": "Primeri dobre prakse",
         "li1": "Kreirajte fleksibilne politike uzimanja odmora.",
         "li2": "Uključite se u zajednicu.",
@@ -47,13 +47,14 @@
         "newsTitle": "Predstavljanje projekta “JEDNAKI“ ", 
         "news-section": "Kabinet ministra bez portfelja zaduženog za demografiju i populacionu politiku, u saradnji sa Fondacijom Ana i Vlade Divac počeo je sa realizacijom novog projekta „JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“ koji se bavi poboljšanjem usklađivanja radnog i porodičnog života. Projekat će se u narednih 18 meseci sprovoditi, uz finansijsku podršku Evropske unije, kroz program „Prava, jednakost i državljanstvo (2014-2020).“ Medijima se obratila prof. dr Slavica Đukić Dejanović, ministarka bez portfelja zadužena za demografiju i populacionu politiku koja je istakla da projekat ,,JEDNAKI - Ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih” predstavlja još jednu u nizu aktivnosti na putu stvaranja zdrave radne atmosfere..",
         "read-more": "Pročitaj više",
-        "contact-left": "KABINET MINISTRA BEZ PORTFELjA ZADUŽENOG ZA DEMOGRAFIJU I POPULACIONU POLITIKU",
+        "contact-left": "MINISTARSTVO ZA BRIGU O PORODICI I DEMOGRAFIJU",
         "contact-right": "FONDACIJA ANA I VLADE DIVAC",
         "news": "Vesti"
     },
     "app": {
-        "disclaimer": "Ovaj vebsajt je izrađen uz finansijsku podršku Evropske komisije. Za sadržaj vebsajta isključivo su odgovorni Kabinet ministra bez portfelja zaduženog za demografiju i populacionu politiku i Fondacija Ana i Vlade Divac i ne može se ni pod kojim okolnostima smatrati da ovaj dokument predstavlja stavove Evropske komisije. Projekat „Jednaki - ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“ finansiran je iz programa Evropske unije „Prava, jednakost i državljanstvo (2014-2020)“.",
-        "name": "Uroš Dimitrijević"    
+        "disclaimer": "Ovaj vebsajt je izrađen uz finansijsku podršku Evropske komisije. Za sadržaj vebsajta isključivo su odgovorni Ministarstvo za brigu o porodici i demografiju i Fondacija Ana i Vlade Divac i ne može se ni pod kojim okolnostima smatrati da ovaj vebsajt predstavlja stavove Evropske komisije. Projekat „Jednaki - ka rodnoj ravnopravnosti usklađivanjem radnog i porodičnog života zaposlenih“ finansiran je iz programa Evropske unije „Prava, jednakost i državljanstvo (2014-2020)“.",
+        "name": "Uroš Dimitrijević",
+        "name2": " & Denis Kučević"    
     },
     "news": {
         "category": "Kategorija: Vesti",

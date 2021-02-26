@@ -68,6 +68,7 @@ export default {
   line-height: 1.7;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-align: justify;
 }
 
 .one_news h3{
