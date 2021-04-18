@@ -6,6 +6,11 @@ import Publications from '@/views/Publications.vue'
 import OneNews from '@/views/OneNews.vue'
 import OneNews2 from '@/views/OneNews2.vue'
 import OneNews3 from '@/views/OneNews3.vue'
+import OneNews4 from '@/views/OneNews4.vue'
+import OneNews5 from '@/views/OneNews5.vue'
+import OneNews6 from '@/views/OneNews6.vue'
+import OneNews7 from '@/views/OneNews7.vue'
+import OneNews8 from '@/views/OneNews8.vue'
 
 
 Vue.use(VueRouter)
@@ -40,6 +45,31 @@ const routes = [
     path: '/news/oneNews3',
     name: 'OneNews3',
     component: OneNews3
+  },
+  {
+    path: '/news/oneNews4',
+    name: 'OneNews4',
+    component: OneNews4
+  },
+  {
+    path: '/news/oneNews5',
+    name: 'OneNews5',
+    component: OneNews5
+  },
+  {
+    path: '/news/oneNews6',
+    name: 'OneNews6',
+    component: OneNews6
+  },
+  {
+    path: '/news/oneNews7',
+    name: 'OneNews7',
+    component: OneNews7
+  },
+  {
+    path: '/news/oneNews8',
+    name: 'OneNews8',
+    component: OneNews8
   },
   {
     path: '/about',

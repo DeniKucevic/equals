@@ -78,6 +78,42 @@
       </b-col>
     </b-row>
 
+    <!-- istrazivanja -->
+    <b-row style="height: auto" id="news_" class="mb-3 text-center">
+      <b-col>{{ $t("home.info") }}</b-col>
+    </b-row>
+    <b-row align-h="center" style="height: auto" class="mb-5 mt-4">
+      <b-col cols lg="3" class="mb-4 publication mt-4">
+        <a
+          href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva.pdf"
+          target="_blank"
+        >
+          <b-img
+            :src="require('../assets/publ1.png')"
+            fluid-grow
+            alt="Fluid-grow image"
+          ></b-img>
+        </a>
+      </b-col>
+
+      <b-col cols lg="3" class="mb-4 mt-4 publication">
+        <a
+          href="/Uskladjivanje rada i roditeljstva Poslodavci.pdf"
+          target="_blank"
+        >
+          <b-img
+            :src="require('../assets/publ2.png')"
+            fluid-grow
+            alt="Fluid-grow image"
+          ></b-img>
+        </a>
+      </b-col>
+    </b-row>
+
+    <b-row style="height: auto" id="news_" class="mb-3 text-center">
+      <b-col> - - - </b-col>
+    </b-row>
+
     <!-- VIDEO -->
     <b-row
       align-h="center"
@@ -170,6 +206,8 @@
 </template>
 
 <script>
+import i18n from "../i18n";
+console.log(i18n.vm.locale);
 export default {
   methods: {
     goToNews() {

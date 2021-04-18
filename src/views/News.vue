@@ -12,6 +12,101 @@
       </b-col>  
     </b-row>
 
+    <!-- eight news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/25mart.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title8')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section8')}}</p>
+           <button @click="read8()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- eight news -->
+
+    <!-- seventh news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/18septembar.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title7')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section7')}}</p>
+           <button @click="read7()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- seventh news -->
+
+    <!-- sixth news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/18mart.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title6')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section6')}}</p>
+           <button @click="read6()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- sixth news -->
+
+    <!-- fifth news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/9mart.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title5')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section5')}}</p>
+           <button @click="read5()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- fifth news -->
+
+    <!-- fourth news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/8mart1.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title4')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section4')}}</p>
+           <button @click="read4()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- fourth news -->
+
      <!-- third news -->
     <b-row align-h="center" style="height: auto;" class="mt-5">
       <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
@@ -83,6 +178,31 @@ export default {
     read3() {
       this.$router.push({
         name: "OneNews3"
+      });
+    },
+    read4() {
+      this.$router.push({
+        name: "OneNews4"
+      });
+    },
+    read5() {
+      this.$router.push({
+        name: "OneNews5"
+      });
+    },
+    read6() {
+      this.$router.push({
+        name: "OneNews6"
+      });
+    },
+    read7() {
+      this.$router.push({
+        name: "OneNews7"
+      });
+    },
+    read8() {
+      this.$router.push({
+        name: "OneNews8"
       });
     }
   }
