@@ -85,7 +85,7 @@
     <b-row align-h="center" style="height: auto" class="mb-5 mt-4">
       <b-col cols lg="3" class="mb-4 publication mt-4">
         <a
-          href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva.pdf"
+          href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija).pdf"
           target="_blank"
         >
           <b-img
@@ -98,7 +98,7 @@
 
       <b-col cols lg="3" class="mb-4 mt-4 publication">
         <a
-          href="/Uskladjivanje rada i roditeljstva Poslodavci.pdf"
+          href="/Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija).pdf"
           target="_blank"
         >
           <b-img

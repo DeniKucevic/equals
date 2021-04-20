@@ -11,12 +11,12 @@
        <b-col xl='6' lg="8" md="10" sm="12" cols="12" offset-xl="1" offset-lg="1"  offset-md="1">
       <b-media>
         <template v-slot:aside>
-          <a href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva.pdf" target="_blank">
+          <a href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija).pdf" target="_blank">
             <b-img :src="require('../assets/pdf-icon.png')" alt="pdf-icon" fluid-grow=""></b-img>
           </a>  
         </template>
         <p class="mb-0">
-          Jedinice lokalne samouprave i usklađivanje rada i roditeljstva
+          Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija)
         </p>
       </b-media>
        </b-col>
@@ -26,12 +26,12 @@
        <b-col xl='6' lg="8" md="10" sm="12" cols="12" offset-xl="1" offset-lg="1"  offset-md="1">
       <b-media>
         <template v-slot:aside>
-          <a href="/Uskladjivanje rada i roditeljstva Poslodavci.pdf" target="_blank">
+          <a href="/Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija).pdf" target="_blank">
             <b-img :src="require('../assets/pdf-icon.png')" alt="pdf-icon" fluid-grow=""></b-img>
           </a>  
         </template>
         <p class="mb-0">
-          Uskladjivanje rada i roditeljstva Poslodavci
+          Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija)
         </p>
       </b-media>
        </b-col>
