@@ -3,20 +3,21 @@
 
     <b-row fluid class="one_news" align-h="center" style="background-color: #1c144f; height: 165px;">
       <b-col  xl="10" lg="10" md="10" sm="12" cols="12" align-self="center" class="mt-2"  >
-        <h3>{{$t('oneNews7.header')}}</h3>
+        <h3>{{$t('oneNews8.header')}}</h3>
       </b-col>
     </b-row>
 
     <b-row  align-h="center" style="height: auto;" class="col1" >
       <b-col xl="7" sm="12" md="12" lg="12" >
         <p>
-                       {{$t('oneNews8.p1')}}
-          <br /><br /> <span>{{$t('oneNews8.p2')}}</span>
-          <br /><br /> {{$t('oneNews8.p3')}}
+           <span  style="font-weight: bold;">
+                       {{$t('oneNews8.p1')}}</span>
+          <br /><br /> <span  style="font-weight: bold;">{{$t('oneNews8.p2')}}</span>
+          <br /><br />  <span  style="font-weight: bold;">{{$t('oneNews8.p3')}}</span>
           <br /><br /><b>{{$t('oneNews8.date')}}</b>
           <br /><br /> {{$t('oneNews8.p4')}}
           <br /><br /> <b>{{$t('oneNews8.subHeading')}}</b>
-          <br /><br /> <span>{{$t('oneNews8.p5')}}</span>
+          <br /><br /> <span style="font-style: normal;">{{$t('oneNews8.p5')}}</span>
           <br /> {{$t('oneNews8.p6')}}
           <br /> {{$t('oneNews8.p7')}}
           <br /><br /> {{$t('oneNews8.p8')}}

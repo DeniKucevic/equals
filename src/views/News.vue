@@ -12,6 +12,25 @@
       </b-col>  
     </b-row>
 
+    <!-- ninth news -->
+    <b-row align-h="center" style="height: auto;" class="mt-5">
+      <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
+        <b-img :src="require('../assets/vest9.png')" fluid-grow alt="Fluid-grow image"
+        ></b-img>
+      </b-col>
+
+      <b-col cols lg="8"  xl="5" class="col1">
+        <b-card class="newsText">
+          <b-card-title class="newsTitle">{{$t('news.title9')}}</b-card-title>
+          <b-card-text>
+            <p>{{$t('news.section9')}}</p>
+           <button @click="read9()" >{{$t('news.read')}}→</button>
+          </b-card-text>
+        </b-card>
+      </b-col>
+    </b-row>
+    <!-- ninth news -->
+
     <!-- eight news -->
     <b-row align-h="center" style="height: auto;" class="mt-5">
       <b-col cols lg="3" xl="2" style="margin-bottom: 20px;">
@@ -203,6 +222,11 @@ export default {
     read8() {
       this.$router.push({
         name: "OneNews8"
+      });
+    },
+    read9() {
+      this.$router.push({
+        name: "OneNews9"
       });
     }
   }

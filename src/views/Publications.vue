@@ -6,8 +6,38 @@
         <h3> {{$t('publication.title')}}</h3>
       </div>
     </div>
-
+    
     <b-row style="height: auto;" class="mt-5">
+       <b-col xl='6' lg="8" md="10" sm="12" cols="12" offset-xl="1" offset-lg="1"  offset-md="1">
+      <b-media>
+        <template v-slot:aside>
+            <a href="/Priručnik za preduzeca - politike za podsticanje očeva da koriste roditeljsko odsustvo.pdf" target="_blank">
+            <b-img :src="require('../assets/pdf-icon.png')" alt="pdf-icon" fluid-grow=""></b-img>
+          </a>  
+        </template>
+        <p class="mb-0">
+        Priručnik za preduzeca - politike za podsticanje očeva da koriste roditeljsko odsustvo
+        </p>
+      </b-media>
+       </b-col>
+    </b-row>
+
+    <b-row style="height: auto;">
+       <b-col xl='6' lg="8" md="10" sm="12" cols="12" offset-xl="1" offset-lg="1"  offset-md="1">
+      <b-media>
+        <template v-slot:aside>
+            <a href="/Priručnik za upotrebu rodno osetljivog jezika - cirilica.pdf" target="_blank">
+            <b-img :src="require('../assets/pdf-icon.png')" alt="pdf-icon" fluid-grow=""></b-img>
+          </a>  
+        </template>
+        <p class="mb-0">
+        Priručnik za upotrebu rodno osetljivog jezika - cirilica
+        </p>
+      </b-media>
+       </b-col>
+    </b-row>
+
+    <b-row style="height: auto;">
        <b-col xl='6' lg="8" md="10" sm="12" cols="12" offset-xl="1" offset-lg="1"  offset-md="1">
       <b-media>
         <template v-slot:aside>

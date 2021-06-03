@@ -11,6 +11,7 @@ import OneNews5 from '@/views/OneNews5.vue'
 import OneNews6 from '@/views/OneNews6.vue'
 import OneNews7 from '@/views/OneNews7.vue'
 import OneNews8 from '@/views/OneNews8.vue'
+import OneNews9 from '@/views/OneNews9.vue'
 
 
 Vue.use(VueRouter)
@@ -70,6 +71,11 @@ const routes = [
     path: '/news/oneNews8',
     name: 'OneNews8',
     component: OneNews8
+  },
+  {
+    path: '/news/oneNews9',
+    name: 'OneNews9',
+    component: OneNews9
   },
   {
     path: '/about',
