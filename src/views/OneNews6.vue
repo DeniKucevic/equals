@@ -14,9 +14,9 @@
           <br /><br /> <span>{{$t('oneNews6.p2')}}</span> 
           <br /><br /> <span>{{$t('oneNews6.p3')}}</span> 
           <br /><br /> {{$t('oneNews6.p4')}}
-          <br /> {{$t('oneNews6.p5')}}
-          <br /> {{$t('oneNews6.p6')}}
-          <br /> {{$t('oneNews6.p7')}}
+          <br /><br /> {{$t('oneNews6.p5')}}
+          <br /><br /> {{$t('oneNews6.p6')}}
+          <br /><br /> {{$t('oneNews6.p7')}}
           </p>
 
       </b-col>

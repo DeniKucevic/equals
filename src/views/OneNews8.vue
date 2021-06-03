@@ -3,7 +3,7 @@
 
     <b-row fluid class="one_news" align-h="center" style="background-color: #1c144f; height: 165px;">
       <b-col  xl="10" lg="10" md="10" sm="12" cols="12" align-self="center" class="mt-2"  >
-        <h3>{{$t('oneNews7.header')}}</h3>
+        <h3>{{$t('oneNews8.header')}}</h3>
       </b-col>
     </b-row>
 
