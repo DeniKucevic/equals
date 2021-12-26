@@ -17,9 +17,10 @@
             <img
               fluid-grow
               src="./assets/grb.png"
-              alt="Grb Srbije"
+              alt="Grb Ministarstva za brigu o porodici i demografiju"
               class="d-inline-block align-top"
               id="grb"
+              @click="goToMns()"
             />
 
             <img
@@ -28,14 +29,16 @@
               alt="Fondacija Ana i Vlade Divac"
               class="d-inline-block align-top"
               id="divac"
+              @click="gotToFond()"
             />
             <div style="display: inline-block">
               <img
                 fluid-grow
                 src="./assets/Headline.jpg"
-                alt="FOTO_Fondacija Ana i Vlade Divac - Ana Košel, Slavica Đukić Dejanović, Mateja Norčič Štamcar, Tina Aničić"
+                alt="Logo EU"
                 class="d-inline-block align-top"
                 id="eu"
+                @click="goToEu()"
               />
             </div>
           </div>
@@ -138,6 +141,17 @@ import Footer from "@/components/Footer.vue";
 export default {
   components: {
     Footer,
+  },
+  methods: {
+    goToMns() {
+      window.open("http://minbpd.gov.rs/");
+    },
+    gotToFond() {
+      window.open("http://www.divac.com");
+    },
+    goToEu() {
+      window.open("https://ec.europa.eu");
+    },
   },
   name: "locale-changer",
   data() {

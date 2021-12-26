@@ -175,8 +175,8 @@
         <b-img
           fluid
           :src="require('../assets/grb.png')"
-          alt="Logo Fondacije Ana i Vlade Divac"
-          @click="gotToFond()"
+          alt="Logo Ministarstva za brigu o porodici i demografiju"
+          @click="goToMns()"
         ></b-img>
       </b-col>
       <b-col lg="2" md="4" sm="8" class="founders-cards" align-self="center">
@@ -228,7 +228,7 @@ export default {
     },
 
     goToMns() {
-      window.open("http://www.mdpp.gov.rs");
+      window.open("http://minbpd.gov.rs/");
     },
     gotToFond() {
       window.open("http://www.divac.com");
