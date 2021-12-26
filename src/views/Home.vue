@@ -57,7 +57,6 @@
       <b-col cols lg="3" class="mb-4 publication mt-4">
         <a
           href="/Prirucnik Poslodavci Divac 210_225 Dva Web.pdf"
-          target="_blank"
           rel="noopener noreferrer"
           class="anchor"
         >
@@ -72,7 +71,6 @@
       <b-col cols lg="3" class="mb-4 mt-4 publication">
         <a
           href="/Prirucnik za zaposlene.pdf"
-          target="_blank"
           rel="noopener noreferrer"
           class="anchor"
         >
@@ -93,7 +91,6 @@
       <b-col cols lg="3" class="mb-4 publication mt-4">
         <a
           href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija).pdf"
-          target="_blank"
           rel="noopener noreferrer"
           class="anchor"
         >
@@ -108,7 +105,6 @@
       <b-col cols lg="3" class="mb-4 mt-4 publication">
         <a
           href="/Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija).pdf"
-          target="_blank"
           rel="noopener noreferrer"
           class="anchor"
         >
