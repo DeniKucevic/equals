@@ -142,7 +142,7 @@
     <b-row align-h="center" class="mt-5">
       <b-col cols lg="5" class="mb-4">
         <b-img
-          :src="require('../assets/vest9.png')"
+          :src="require('../assets/vest10.png')"
           fluid-grow
           alt="Fluid-grow image"
         ></b-img>
@@ -150,12 +150,16 @@
 
       <b-col cols lg="4" class="news_text1">
         <b-card class="newsText">
-          <b-card-title class="newsTitle">{{ $t("news.title9") }}</b-card-title>
+          <b-card-title class="newsTitle">{{
+            $t("news.title10")
+          }}</b-card-title>
           <b-card-text>
             <p>
-              {{ $t("news.section9") }}
+              {{ $t("news.section10") }}
               <br />
-              <router-link to="/news">{{ $t("home.read-more") }}</router-link>
+              <router-link to="/news/oneNews10">{{
+                $t("home.read-more")
+              }}</router-link>
             </p>
           </b-card-text>
         </b-card>
