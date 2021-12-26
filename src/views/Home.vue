@@ -58,6 +58,8 @@
         <a
           href="/Prirucnik Poslodavci Divac 210_225 Dva Web.pdf"
           target="_blank"
+          rel="noopener noreferrer"
+          class="anchor"
         >
           <b-img
             :src="require('../assets/korice4.jpg')"
@@ -68,7 +70,12 @@
       </b-col>
 
       <b-col cols lg="3" class="mb-4 mt-4 publication">
-        <a href="/Prirucnik za zaposlene.pdf" target="_blank">
+        <a
+          href="/Prirucnik za zaposlene.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="anchor"
+        >
           <b-img
             :src="require('../assets/korice1.jpg')"
             fluid-grow
@@ -87,6 +94,8 @@
         <a
           href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija).pdf"
           target="_blank"
+          rel="noopener noreferrer"
+          class="anchor"
         >
           <b-img
             :src="require('../assets/publ1.png')"
@@ -100,6 +109,8 @@
         <a
           href="/Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija).pdf"
           target="_blank"
+          rel="noopener noreferrer"
+          class="anchor"
         >
           <b-img
             :src="require('../assets/publ2.png')"

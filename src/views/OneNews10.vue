@@ -23,9 +23,12 @@
       <b-col xl="7" sm="12" md="12" lg="12">
         <p>
           <b>{{ $t("oneNews10.b1") }} </b>{{ $t("oneNews10.p1")
-          }}<a href="https://divac.com/rs/Naslovna">{{
-            $t("oneNews10.link1")
-          }}</a
+          }}<a
+            href="https://divac.com/rs/Naslovna"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="anchor"
+            >{{ $t("oneNews10.link1") }}</a
           >{{ $t("oneNews10.p111") }}<b>{{ $t("oneNews10.b2") }}</b
           >{{ $t("oneNews10.p112") }}<br /><br />{{ $t("oneNews10.p2")
           }}<b>{{ $t("oneNews10.b3") }}</b
@@ -43,9 +46,12 @@
           {{ $t("oneNews10.p10") }}<b>{{ $t("oneNews10.b9") }}</b
           >{{ $t("oneNews10.p101") }} <br /><br />
           {{ $t("oneNews10.p11")
-          }}<a href="mailto:marija.batinica@divac.com">{{
-            $t("oneNews10.m1")
-          }}</a
+          }}<a
+            href="mailto:marija.batinica@divac.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="anchor"
+            >{{ $t("oneNews10.m1") }}</a
           ><br /><br />{{ $t("oneNews10.p12") }} <br /><br />
         </p>
       </b-col>

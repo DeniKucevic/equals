@@ -8,7 +8,8 @@
         fixed="top"
         style="
           border-bottom: 1.5px solid rgba(41, 170, 225, 0.5);
-          text-align: center"
+          text-align: center;
+        "
       >
         <b-navbar-brand href="#">
           <div id="images_">
@@ -88,6 +89,7 @@
             <a
               href="https://www.facebook.com/Jednaki-102330545226798"
               target="_blank"
+              rel="noopener noreferrer"
               class="anchor"
             >
               <svg
@@ -106,6 +108,7 @@
             <a
               href="https://twitter.com/Jednaki3"
               target="_blank"
+              rel="noopener noreferrer"
               class="anchor"
             >
               <svg
@@ -318,7 +321,7 @@ a.router-link-exact-active {
   }
 
   .langauge-select {
-  width: 50%;
+    width: 50%;
   }
   .navbar {
     padding-left: 10px !important;

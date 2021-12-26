@@ -16,13 +16,17 @@
         <p>
           {{ $t("app.disclaimer") }} <br />Developed by
           <span id="myLinkedIn" @click="linkedIn()">{{ $t("app.name") }}</span>
-          <span id="myLinkedIn" @click="linkedIn2()">{{ $t("app.name2") }}</span>
+          <span id="myLinkedIn" @click="linkedIn2()">{{
+            $t("app.name2")
+          }}</span>
         </p>
         <div style="text-align: center; padding: 1rem">
           <div style="display: inline-block">
             <a
               href="https://www.facebook.com/Jednaki-102330545226798"
               target="_blank"
+              rel="noopener noreferrer"
+              class="anchor"
             >
               <svg
                 viewBox="0 0 320 512"
@@ -37,7 +41,12 @@
             </a>
           </div>
           <div style="display: inline-block">
-            <a href="https://twitter.com/Jednaki3" target="_blank">
+            <a
+              href="https://twitter.com/Jednaki3"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="anchor"
+            >
               <svg
                 viewBox="0 0 512 512"
                 id="twitter"
