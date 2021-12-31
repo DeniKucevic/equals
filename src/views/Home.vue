@@ -83,6 +83,37 @@
       </b-col>
     </b-row>
 
+    <!-- e-kits -->
+    <b-row align-h="center" style="height: auto" class="mb-5 mt-4">
+      <b-col cols lg="3" class="mb-4 publication mt-4">
+        <a
+          href="/e-kit_za_HR_menadžere.pdf"
+          rel="noopener noreferrer"
+          class="anchor"
+        >
+          <b-img
+            :src="require('../assets/e-kit_managers.png')"
+            fluid-grow
+            alt="Fluid-grow image"
+          ></b-img>
+        </a>
+      </b-col>
+
+      <b-col cols lg="3" class="mb-4 mt-4 publication">
+        <a
+          href="/Rad_i_Roditeljstvo-rezultati_istraživanja.pdf"
+          rel="noopener noreferrer"
+          class="anchor"
+        >
+          <b-img
+            :src="require('../assets/e-kit_results.png')"
+            fluid-grow
+            alt="Fluid-grow image"
+          ></b-img>
+        </a>
+      </b-col>
+    </b-row>
+
     <!-- istrazivanja -->
     <b-row style="height: auto" id="news_" class="mb-3 text-center">
       <b-col>{{ $t("home.info") }}</b-col>
