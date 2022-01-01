@@ -20,6 +20,66 @@
         <b-media>
           <template v-slot:aside>
             <a
+              href="/e-kit_za_HR_menadžere.pdf"
+              rel="noopener noreferrer"
+              class="anchor"
+            >
+              <b-img
+                :src="require('../assets/pdf-icon.png')"
+                alt="pdf-icon"
+                fluid-grow=""
+              ></b-img>
+            </a>
+          </template>
+          <p class="mb-0">E kit za HR menadžere</p>
+        </b-media>
+      </b-col>
+    </b-row>
+
+    <b-row style="height: auto">
+      <b-col
+        xl="6"
+        lg="8"
+        md="10"
+        sm="12"
+        cols="12"
+        offset-xl="1"
+        offset-lg="1"
+        offset-md="1"
+      >
+        <b-media>
+          <template v-slot:aside>
+            <a
+              href="/Rad_i_Roditeljstvo-rezultati_istraživanja.pdf"
+              rel="noopener noreferrer"
+              class="anchor"
+            >
+              <b-img
+                :src="require('../assets/pdf-icon.png')"
+                alt="pdf-icon"
+                fluid-grow=""
+              ></b-img>
+            </a>
+          </template>
+          <p class="mb-0">Rad i Roditeljstvo - rezultati istraživanja</p>
+        </b-media>
+      </b-col>
+    </b-row>
+
+    <b-row style="height: auto">
+      <b-col
+        xl="6"
+        lg="8"
+        md="10"
+        sm="12"
+        cols="12"
+        offset-xl="1"
+        offset-lg="1"
+        offset-md="1"
+      >
+        <b-media>
+          <template v-slot:aside>
+            <a
               href="/Priručnik za preduzeca - politike za podsticanje očeva da koriste roditeljsko odsustvo.pdf"
               rel="noopener noreferrer"
               class="anchor"
