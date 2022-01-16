@@ -145,7 +145,7 @@
         <b-media>
           <template v-slot:aside>
             <a
-              href="/Jedinice lokalne samouprave i usklađivanje rada i roditeljstva (predfinalna verzija).pdf"
+              href="/UskladjivanjeJLS.pdf"
               rel="noopener noreferrer"
               class="anchor"
             >
@@ -158,7 +158,6 @@
           </template>
           <p class="mb-0">
             Jedinice lokalne samouprave i usklađivanje rada i roditeljstva
-            (predfinalna verzija)
           </p>
         </b-media>
       </b-col>
@@ -178,7 +177,7 @@
         <b-media>
           <template v-slot:aside>
             <a
-              href="/Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija).pdf"
+              href="/Uskladjivanje rada i roditeljstva Poslodavac.pdf"
               rel="noopener noreferrer"
               class="anchor"
             >
@@ -189,9 +188,7 @@
               ></b-img>
             </a>
           </template>
-          <p class="mb-0">
-            Uskladjivanje rada i roditeljstva Poslodavci (predfinalna verzija)
-          </p>
+          <p class="mb-0">Uskladjivanje rada i roditeljstva Poslodavci</p>
         </b-media>
       </b-col>
     </b-row>
